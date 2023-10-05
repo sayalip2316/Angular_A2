@@ -1,0 +1,30 @@
+#container{
+   width:95%;
+   margin: auto;
+   background-color: pink;
+  margin-top: 50px;
+}
+th{
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+td{
+    padding: 8px;
+    text-align: center;
+}
+table{
+    width:100%;
+    padding: 10px;
+}
+button{
+    width: 95%;
+    border: none;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}

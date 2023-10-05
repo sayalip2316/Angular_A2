@@ -1,0 +1,13 @@
+<!-- project-listing.component.html -->
+<div id="main">
+<div *ngFor="let project of projects">
+    <h1>Name: {{ project.name }}</h1>
+    <p>Desc: {{ project.description }}</p>
+    <h2>Start_date: {{ project.startDate }}</h2>
+    <h2>End_date: {{ project.endDate }}</h2>
+    <h2>Manager: {{ project.projectManager }}</h2>
+    <button (click)="deleteProject(project)">Delete</button>
+  </div>
+  </div>
+  
+
